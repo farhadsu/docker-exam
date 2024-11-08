@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "description": "A simple React application",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,12 +14,11 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0"
   },
-  "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-plugin-react": "^7.0.0"
+  "dependencies": {
+    "react-scripts": "5.0.1"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": ["my-react-app", "my-react-app/jest"]
   },
   "browserslist": {
     "production": [
